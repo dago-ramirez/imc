@@ -11,7 +11,7 @@ function CuerpoDetalle(props) {
                 <div className="column is-half is-offset-one-quarter">
                     <table className="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
                         <thead>
-                            <tr>
+                            <tr className="has-background-grey-lighter">
                                 {tituloTabla.map((element, index) => {
                                     return (
                                         <th className="has-text-centered" key={index}>{element}</th>

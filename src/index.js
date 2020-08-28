@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bulma/css/bulma.css';
-import Componente1 from './components/seccion1/calculadoraApp';
+import Componente1 from './components/seccion3/CalculadorApp';
 import Componente2 from './components/seccion2/DetalleIMCApp';
 import * as serviceWorker from './serviceWorker';
 
